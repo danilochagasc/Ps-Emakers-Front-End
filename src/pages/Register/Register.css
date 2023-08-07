@@ -1,0 +1,28 @@
+.container{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 100vh;
+    grid-template-areas: "main aside"
+                        "main aside";
+    
+    
+}
+
+
+main{
+    display: grid;
+    background-color: #FEFCFF;
+    grid-area: main;
+    justify-content: center;
+}
+
+main h1{
+    display: grid;
+    justify-content: center;
+    color: #5E2075;
+    font-size: 350%;
+}
+aside{
+    background-image: linear-gradient(to bottom, #75206C,#FE690E);
+    grid-area: aside;
+}

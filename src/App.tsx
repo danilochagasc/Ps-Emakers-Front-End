@@ -1,7 +1,11 @@
-import Register from "./pages/Register/Register"
+import Register from "./pages/Register/Register";
+import "./index.css";
 function App() {
   return (
-    <Register />
+    <div>
+      <Register />
+    </div>
+
   )
 }
 
