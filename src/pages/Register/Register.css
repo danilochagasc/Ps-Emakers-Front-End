@@ -14,6 +14,7 @@ main{
     background-color: #FEFCFF;
     grid-area: main;
     justify-content: center;
+    padding: 10rem;
 }
 
 main h1{

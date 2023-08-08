@@ -1,6 +1,5 @@
 import RegisterInputBar from "../../components/RegisterInputBar/RegisterInputBar";
 import RegisterMiniInputBar from "../../components/RegisterMiniInputBar/RegisterMiniInputBar"; 
-import BigLogo from "../../assets/BigLogo_emakers_png.png";
 import "./Register.css";
 
 

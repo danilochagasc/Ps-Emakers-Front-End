@@ -1,4 +1,8 @@
-.custom-file-upload {
+.image-container p{
+  padding: 1rem;
+}
+
+.image-container label {
     background-color: #EFEFEF;
     border: none;
     padding: 0.6rem 0.5rem;
@@ -10,7 +14,7 @@
     color: #5E2075;
     font-size: smaller;
   }
-.InputEscondido{
+.image-container input{
     display: none;
 }
 /* 

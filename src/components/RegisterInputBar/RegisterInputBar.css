@@ -1,18 +1,19 @@
 .inputbar-container p{
     font-weight:400;
     color: #5E2075;
+    margin-left: 1em;
 }
 
-.inputbar-container input{
+.inputbar-container input {
     background-color: #EFEFEF;
     border: none;
-    padding: 1rem 7rem;
+    padding: 1rem 7rem 1rem 2rem; 
     border-radius: 35px;
-    box-shadow: 5px 5px 10px rgba(0,0,0,.212);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.212);
     outline: none;
     box-sizing: border-box;
-
 }
+
 
 input::placeholder{
     color: #5E2075;
