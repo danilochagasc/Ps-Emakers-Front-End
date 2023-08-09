@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    height: 100vh; /* Usando a altura total da viewport */
+    width: 100%;
+    overflow: hidden;
+}
+
+main {
+    display: flex;
+    flex: 5.5; /* Ocupa 40% do espaço vertical */
+    background-color: #FEFCFF;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+aside {
+    display: flex;
+    flex: 4.5; /* Ocupa 60% do espaço vertical */
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    background-image: linear-gradient(to bottom, #75206C, #FE690E);
+}
+
+aside h1{
+    font-size: 50px;
+    color:#FEFCFF;
+    padding-top: 20vh;
+    padding-bottom: 15vh;
+}
+
+aside .message-container{
+    padding-bottom: 20vh;
+}

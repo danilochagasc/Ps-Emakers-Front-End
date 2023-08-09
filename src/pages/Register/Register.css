@@ -1,29 +1,121 @@
-.container{
-    display: grid;
-    grid-template-columns: 30% 70%;
-    grid-template-rows: 100vh;
-    grid-template-areas: "main aside"
-                        "main aside";
-    
-    
+.container {
+    display: flex;
+    height: 100vh; /* Usando a altura total da viewport */
+    width: 100%;
+    overflow: hidden;
 }
 
-
-main{
-    display: grid;
+main {
+    display: flex;
+    flex: 4; /* Ocupa 40% do espaço vertical */
     background-color: #FEFCFF;
-    grid-area: main;
-    justify-content: center;
-    padding: 10rem;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
 }
 
-main h1{
-    display: grid;
-    justify-content: center;
+main h1 {
     color: #5E2075;
-    font-size: 350%;
+    font-size: 3.5em; /* Equivalente a 350% */
+    padding-top: 3vh;
+    padding-bottom: 10vh;
 }
-aside{
-    background-image: linear-gradient(to bottom, #75206C,#FE690E);
-    grid-area: aside;
+
+main .select-image-container{
+    display: flex;
+    flex-direction: row;
 }
+
+main .select-container{
+    display: flex;
+    flex-direction: column;
+}
+
+main .select-container select{
+    background-color: #EFEFEF;
+    border: none; 
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,.212);
+    outline: none;
+    color: #5E2075;
+    font-size: smaller;
+    width: 12em;
+    padding: 1em 1em 1em 1em;
+    margin-right: 3em; 
+}
+
+main .select-container label{
+    font-size: large;
+    color: #5E2075;
+    padding-left: 0.8em;
+}
+
+main .image-container p{
+    font-size: large;
+    color: #5E2075;
+    justify-content: flex-start;
+    padding-bottom: 0.8em;
+    padding-left: 0.8em;
+}
+
+main .image-container label {
+    background-color: #EFEFEF;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,.212);
+    outline: none;
+    font-size: smaller;
+    color: #5E2075;
+    width: 12em;
+    padding: 1.1em 3em 1.1em 3em;
+}
+
+main .image-container input{
+    display: none;
+}
+
+main .submit-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4em;
+}
+
+main .submit-container input{
+    background-color: #5E2075;
+    border: none;
+    width: 16em;
+    padding: 1em 1em 1em 1em; 
+    border-radius: 35px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.212);
+    outline: none;
+    box-sizing: border-box;
+    margin-bottom: 2em;
+    font-size: 1em;
+    color:#FEFCFF;
+    
+}
+
+aside {
+    display: flex;
+    flex: 6; /* Ocupa 60% do espaço vertical */
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    background-image: linear-gradient(to bottom, #75206C, #FE690E);
+}
+
+aside img{
+    width: 30rem;
+    height: auto;
+    padding-top: 7vh;
+    padding-bottom: 15vh;
+}
+
+aside p, pre{
+    color: #FEFCFF;
+    font-size: 48px;
+}
+ .link-style{
+    text-decoration: none;
+ }

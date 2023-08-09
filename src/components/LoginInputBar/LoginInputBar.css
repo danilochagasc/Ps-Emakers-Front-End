@@ -11,18 +11,12 @@
 .inputbar-container input {
     background-color: #EFEFEF;
     border: none;
-    width: 25em;
-    padding: 1em 1em 1em 1em; 
+    width: 36em;
+    padding: 1.2em 1em 1.2em 1em; 
     border-radius: 35px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.212);
     outline: none;
     box-sizing: border-box;
     font-size: 1em;
     color: #5E2075;
-}
-
-
-input::placeholder{
-    color: #5E2075;
-    font-size: 1em;
 }
