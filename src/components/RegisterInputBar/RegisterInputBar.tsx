@@ -8,7 +8,7 @@ interface RegisterInputBarProps {
 
 function RegisterInputBar({ placeholder, text, type }: RegisterInputBarProps) {
   return (
-    <div className="inputbar-container">
+    <div className="reg-inputbar-container">
         <p>{text}</p>
         <input type={type} placeholder={placeholder}/>
     </div>

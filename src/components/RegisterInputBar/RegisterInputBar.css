@@ -1,14 +1,14 @@
-.inputbar-container{
+.reg-inputbar-container{
     padding-bottom: 3vh;
 }
-.inputbar-container p{
+.reg-inputbar-container p{
     font-size: large;
     color: #5E2075;
     margin-left: 1em;
 
 }
 
-.inputbar-container input {
+.reg-inputbar-container input {
     background-color: #EFEFEF;
     border: none;
     width: 25em;

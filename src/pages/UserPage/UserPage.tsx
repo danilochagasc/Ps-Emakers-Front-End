@@ -1,8 +1,18 @@
 import {Link} from 'react-router-dom';
-
+import "./UserPage.css";
 function UserPage(){
     return(
-        <h1>oi usuario</h1>
+        <div className='container'>
+            <main>
+                <p>danilo</p>
+            </main>
+
+            <aside>
+                <p>DANILO</p>
+            </aside>
+
+        </div>
+
     )
 }
 

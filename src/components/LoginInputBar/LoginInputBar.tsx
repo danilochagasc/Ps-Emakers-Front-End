@@ -7,7 +7,7 @@ interface LoginInputBarProps {
   
   function LoginInputBar({text, type }: LoginInputBarProps) {
     return (
-      <div className="inputbar-container">
+      <div className="log-inputbar-container">
           <p>{text}</p>
           <input type={type}/>
       </div>

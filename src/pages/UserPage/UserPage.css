@@ -1,0 +1,24 @@
+.container {
+    display: flex;
+    height: 100vh; /* Usando a altura total da viewport */
+    width: 100%;
+    overflow: hidden;
+}
+
+main {
+    display: flex;
+    flex: 9; 
+    background-color: #FEFCFF;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+aside {
+    display: flex;
+    flex: 1; 
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    background-image: linear-gradient(to bottom, #75206C, #FE690E);
+}

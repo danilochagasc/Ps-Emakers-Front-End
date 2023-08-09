@@ -8,9 +8,9 @@ interface LoginButtonProps {
 
 function LoginButton({color, text} : LoginButtonProps){
     let path = "";
-    if(color === "#5E2075"){
+    if(color === "#FE690E"){
         path = "/";
-    }else if(color === "#FE690E"){
+    }else if(color === "#5E2075"){
         path = "/userpage"
     }
 
