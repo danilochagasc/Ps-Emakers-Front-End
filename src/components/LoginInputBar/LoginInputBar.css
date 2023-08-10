@@ -12,7 +12,7 @@
     background-color: #EFEFEF;
     border: none;
     width: 36em;
-    padding: 1.2em 1em 1.2em 1em; 
+    padding: 1.2em 3em 1.2em 1em; /* Aumente o padding à direita para acomodar o ícone */
     border-radius: 35px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.212);
     outline: none;
@@ -20,3 +20,6 @@
     font-size: 1em;
     color: #5E2075;
 }
+
+
+

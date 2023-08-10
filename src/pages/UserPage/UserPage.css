@@ -1,24 +1,27 @@
-.container {
+.user-container {
     display: flex;
-    height: 100vh; /* Usando a altura total da viewport */
+    flex-direction: column;
+    height: 100vh;
     width: 100%;
-    overflow: hidden;
 }
 
-main {
-    display: flex;
-    flex: 9; 
+.user-container header {
+    flex: 3.5; /* Ocupa 40% da largura */
+    background-image: url("../../assets/ProfileImages/ProfileBanner.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom: 0.3em solid #FE690E;
+}
+
+.user-container main {
+    flex: 6.5; /* Ocupa 60% da largura */
     background-color: #FEFCFF;
-    flex-direction: column;
-    justify-content: start;
-    align-items: center;
 }
 
-aside {
+.user-container header .side-menu{
     display: flex;
-    flex: 1; 
-    flex-direction: column;
-    justify-content: start;
-    align-items: center;
-    background-image: linear-gradient(to bottom, #75206C, #FE690E);
+    justify-content: flex-end;
+    font-size: 3em;
+    
 }
+

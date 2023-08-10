@@ -37,6 +37,7 @@
     justify-content: start;
     align-items: center;
     background-image: linear-gradient(to bottom, #75206C, #FE690E);
+    border-left: 0.3em solid #FE690E;
 }
 
 .log-container aside h1{
@@ -47,8 +48,13 @@
 }
 
 .log-container aside .message-container{
+    display: flex;
     padding-bottom: 20vh;
     color: #FEFCFF;
     font-size: 48px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
 

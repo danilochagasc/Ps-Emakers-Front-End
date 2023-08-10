@@ -1,15 +1,24 @@
 import {Link} from 'react-router-dom';
+import {VscSearch} from 'react-icons/vsc';
+import {MdPeopleAlt} from 'react-icons/md';
+import {FaPencil} from 'react-icons/fa';
+import EmakersBannerPng from "../../assets/Logo_lateral_semfundo.png";
 import "./UserPage.css";
 function UserPage(){
     return(
-        <div className='container'>
-            <main>
-                <p>danilo</p>
-            </main>
+        <div className='user-container'>
+            <header>
+                <div className='side-menu'>
+                    <VscSearch />
+                    <MdPeopleAlt />
+                </div>
 
-            <aside>
-                <p>DANILO</p>
-            </aside>
+                
+            </header>
+
+            <main>
+
+            </main>
 
         </div>
 

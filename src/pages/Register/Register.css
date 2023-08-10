@@ -103,6 +103,7 @@
     justify-content: start;
     align-items: center;
     background-image: linear-gradient(to bottom, #75206C, #FE690E);
+    border-left: 0.3em solid #FE690E;
 }
 
 .reg-container aside img{

@@ -49,6 +49,7 @@ function Register(){
             <aside>
 
                 <img src= {BigLogo} alt="BigLogo" />
+                
                 <pre>
                      Venha fazer parte da 
                 </pre>
