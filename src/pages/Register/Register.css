@@ -7,7 +7,7 @@
 
 .reg-container main {
     display: flex;
-    flex: 4; /* Ocupa 40% do espaço vertical */
+    flex: 3; /* Ocupa 40% do espaço vertical */
     background-color: #FEFCFF;
     flex-direction: column;
     justify-content: start;
@@ -98,7 +98,7 @@
 
 .reg-container aside {
     display: flex;
-    flex: 6; /* Ocupa 60% do espaço vertical */
+    flex: 7; /* Ocupa 60% do espaço vertical */
     flex-direction: column;
     justify-content: start;
     align-items: center;
